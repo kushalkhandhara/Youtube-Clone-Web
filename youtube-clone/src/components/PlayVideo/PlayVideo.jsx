@@ -19,6 +19,7 @@ export default function PlayVideo() {
           <p>
             15,890 Views &bull; 2 days ago
           </p>
+
           <div>
             
             <span>
@@ -39,9 +40,11 @@ export default function PlayVideo() {
             </span>
 
           </div>
+        
         </div>
 
         <hr />
+
         <div className="publisher">
           <img src={jack} alt="" />
           <div>
@@ -57,48 +60,57 @@ export default function PlayVideo() {
           <hr />
           <h4>130 Comments</h4>
 
+          
           <div className="comment">
             <img src={userprofile} alt="" />
             
             <div>
               <h3>Jack Nick <span>1 day ago </span></h3>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut labore rerum, explicabo deserunt voluptatem blanditiis magni reiciendis cum ea autem.</p>
+              <div className="comment-action">
+                <img src={like} alt="" />
+                <span>244</span>
+                <img src={dislike} alt="" />
+                <span>244</span>
+              </div>
             </div>
 
-            <div className="comment-action">
-              <img src={like} alt="" />
-              <span>244</span>
-              <img src={dislike} alt="" />
-            </div>
           </div>
+
           <div className="comment">
             <img src={userprofile} alt="" />
             
             <div>
               <h3>Jack Nick <span>1 day ago </span></h3>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut labore rerum, explicabo deserunt voluptatem blanditiis magni reiciendis cum ea autem.</p>
+              <div className="comment-action">
+                <img src={like} alt="" />
+                <span>244</span>
+                <img src={dislike} alt="" />
+                <span>244</span>
+              </div>
             </div>
 
-            <div className="comment-action">
-              <img src={like} alt="" />
-              <span>244</span>
-              <img src={dislike} alt="" />
-            </div>
           </div>
+          
           <div className="comment">
             <img src={userprofile} alt="" />
             
             <div>
               <h3>Jack Nick <span>1 day ago </span></h3>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut labore rerum, explicabo deserunt voluptatem blanditiis magni reiciendis cum ea autem.</p>
+              <div className="comment-action">
+                <img src={like} alt="" />
+                <span>244</span>
+                <img src={dislike} alt="" />
+                <span>244</span>
+              </div>
             </div>
 
-            <div className="comment-action">
-              <img src={like} alt="" />
-              <span>244</span>
-              <img src={dislike} alt="" />
-            </div>
           </div>
+      
+
+          
 
         </div>
 
