@@ -22,7 +22,12 @@
     margin-bottom: 20px;
     cursor: pointer;
     align-items: center;
-    /* flex-wrap: wrap; */
+    /* This flex wrap wrap for responsive */
+    flex-wrap: wrap;
+}
+.side-links.active{
+    padding-bottom: 2px;
+    border-bottom: 3px solid red;
 }
 .sidebar hr{
     border: 0;

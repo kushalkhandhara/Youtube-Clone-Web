@@ -7,6 +7,7 @@ import uploadIcon from "../../assets/upload.png";
 import moreIcon from "../../assets/more.png";
 import notification from "../../assets/notification.png";
 import profile from "../../assets/jack.png";
+import { Link } from "react-router-dom";
 
 export default function Navbar(props) {
   const menuClick = ()=>{
@@ -19,7 +20,7 @@ export default function Navbar(props) {
 
       <div className="nav-left flex-div">
         <img className='menu-icon' onClick={menuClick} src={menuIcon} alt="" />
-        <img className='logo' src={logo} alt="" />
+        <Link to="/"><img className='logo' src={logo} alt="" /></Link>
       </div>
 
       <div className="nav-middle flex-div">
