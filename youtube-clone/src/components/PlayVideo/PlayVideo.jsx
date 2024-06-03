@@ -9,9 +9,11 @@ import save from "../../assets/save.png"
 // import userprofile from "../../assets/user_profile.jpg"
 import { useState,useEffect } from "react"
 import {API_key,value_converter,time_converter} from "../../data.js"
+import { useParams } from "react-router-dom"
 
 export default function PlayVideo(props) 
 {
+  const {videoId} = useParams();
 
   const [apiData,setApiData] = useState(null);
 
@@ -48,7 +50,7 @@ export default function PlayVideo(props)
 
     fetchVideoData();
   
-  },[]);
+  },[videoId]);
 
   useEffect(()=>{
 

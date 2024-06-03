@@ -71,3 +71,12 @@
 .small-sidebar .subscribed-list img{
     width: 29px;
 }
+@media (max-width: 900px)
+{
+    .sidebar
+    {
+        display: none;
+    }
+    
+    
+}
